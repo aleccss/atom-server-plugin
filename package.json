@@ -1,0 +1,17 @@
+{
+  "name": "server-plugin",
+  "main": "./lib/server-plugin",
+  "version": "0.0.1",
+  "description": "Configurable server start/stop with file watcher for deployment",
+  "keywords": [ "server", "start", "stop", "deploy", "deployment"
+  ],
+  "repository": "https://github.com/boogie666/atom-mocha.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
