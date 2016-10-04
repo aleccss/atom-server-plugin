@@ -1,0 +1,22 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Server Plugin'
+      'submenu': [
+        {
+          'label': 'Show/Hide Server Panel'
+          'command': 'atom-server-plugin:toggle'
+        },
+        {
+          'label': 'Start/Stop Server'
+          'command': 'atom-server-plugin:startStopServer'
+        },
+        {
+          'label': 'Start/Stop Watcher'
+          'command': 'atom-server-plugin:startStopWatcher'
+        }
+      ]
+    ]
+  }
+]

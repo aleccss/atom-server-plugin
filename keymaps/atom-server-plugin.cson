@@ -8,5 +8,6 @@
 # For more detailed documentation see
 # https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 'atom-workspace':
-  'ctrl-alt-t': 'tomcat-plugin:toggle'
-  'ctrl-alt-w': 'tomcat-plugin:startStopWatcher'
+  'ctrl-alt-t': 'atom-server-plugin:toggle'
+  'ctrl-alt-s': 'atom-server-plugin:startStopServer'
+  'ctrl-alt-w': 'atom-server-plugin:startStopWatcher'
