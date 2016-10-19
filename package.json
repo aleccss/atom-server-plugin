@@ -2,16 +2,26 @@
   "name": "atom-server-plugin",
   "main": "./lib/atom-server-plugin",
   "version": "0.0.1",
-  "author" : "aleccss",
+  "author": "aleccss",
   "description": "Configurable server start/stop with file watcher for deployment",
-  "keywords": [ "server", "start", "stop", "deploy", "deployment", "manage", "watcher", "file"],
+  "keywords": [
+    "server",
+    "start",
+    "stop",
+    "deploy",
+    "deployment",
+    "manage",
+    "watcher",
+    "file"
+  ],
   "repository": "https://github.com/aleccss/atom-server-plugin.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "chokidar": "^1.6.1",
+    "fs-extra": "^0.30.0"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
